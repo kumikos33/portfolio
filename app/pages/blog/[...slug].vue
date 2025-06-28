@@ -38,5 +38,9 @@ if (!blog.value) {
 
 <template>
   <!-- Render the blog post as Prose & Vue components -->
-  <ContentRenderer :value="blog" />
+   <article class="prose dark:prose-invert">
+    <ContentRenderer 
+    v-if="blog"
+    :value="blog" />
+  </article>
 </template>

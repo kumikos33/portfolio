@@ -1,5 +1,3 @@
-First post on our websiteAdd commentMore actions
-
 # First post on our website
 
 ## Introduction
@@ -14,7 +12,7 @@ Something more. **This is bold**.
 
 Unordered lists:
 
-- Do the work
+- Do the works
 - Collect benefits
 
 Numbered lists:
