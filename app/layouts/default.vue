@@ -44,7 +44,15 @@ body {
   font-family: "Roboto";
 }
 
-body {
+/*body {
   @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300;
+}*/
+
+.light {
+  @apply bg-white text-gray-700;
+}
+
+.dark {
+  @apply bg-gray-900 text-gray-300;
 }
 </style>

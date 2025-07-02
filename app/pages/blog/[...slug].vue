@@ -21,6 +21,8 @@ const { data: post } = await useAsyncData(`blog-${slug}`, () => {
 </template> -->
 
 <script setup lang="ts">
+// import { ContentRenderer } from '#components';
+
 
 const route = useRoute();
 
@@ -39,7 +41,7 @@ if (!blog.value) {
 <template>
   <!-- Render the blog post as Prose & Vue components -->
    <article class="prose dark:prose-invert">
-    <ContentRenderer 
+    <ContentRenderer
     v-if="blog"
     :value="blog" />
   </article>

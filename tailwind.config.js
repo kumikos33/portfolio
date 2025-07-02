@@ -1,7 +1,7 @@
 module.exports = {
-  corePlugins: {
-    preflight: false,
-  },
+  // corePlugins: {
+  //   preflight: false,
+  // },
   darkMode: "class",
   plugins: [
     require(id, "@tailwindcss/typography"),
